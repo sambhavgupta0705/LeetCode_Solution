@@ -1,7 +1,7 @@
 class Solution {
 public:
     int firstUniqChar(string s) {
-        map<char,int> mp;
+        unordered_map<char,int> mp;
         int n=s.size();
         for(int i=0;i<n;i++){
             mp[s[i]]++;
